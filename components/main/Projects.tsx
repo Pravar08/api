@@ -22,7 +22,7 @@ const Projects = () => {
           // description="Dedicated solutions designed to empower educational institutions, providing innovative tools and technologies to enhance learning experiences and administrative workflows."
         />
         <ProjectCard
-          src="/hotelHospital2.jpg"
+          src="/muntiple.jpg"
           // title=" Hospital And Hotel Solutions"
           // description="Tailored solutions for hospitals and hotels, revolutionizing operations and guest experiences through advanced technology and seamless integration of services."
         />
