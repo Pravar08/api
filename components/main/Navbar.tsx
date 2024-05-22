@@ -32,7 +32,7 @@ const Navbar = () => {
               Tech Stack
             </a>
             <a href="#projects" className="cursor-pointer">
-              Projects
+            ClienteleHub
             </a>
           </div>
         </div>
