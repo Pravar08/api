@@ -12,13 +12,14 @@ const ProjectCard = ({ src }: Props) => {
       <div className="w-full h-1/2">
         <Image
           src={src}
+          alt={src}
           layout="fill"
           objectFit="cover"
           className="object-cover"
         />
       </div>
 
-     
+  
     </div>
   );
 };
