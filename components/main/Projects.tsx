@@ -29,8 +29,8 @@ const Projects = () => {
           src="/hotelHospital2.jpg"
           title="Empowering Hospital And Hotel Solutions"
           description="Tailored solutions for hospitals and hotels, revolutionizing operations and guest experiences through advanced technology and seamless integration of services."
-          imageWidth={500}
-          imageHeight={300}
+          imageWidth={200}
+          imageHeight={150}
         />
       </div>
     </div>
