@@ -13,7 +13,7 @@ const ProjectCard = ({ src }: Props) => {
         src={src}
         alt={src}
         width={1000}
-        height={1000}
+        height={src==="/hotelHospital2.jpg"?1050:1000}
         className="w-full object-contain"
       />
 
