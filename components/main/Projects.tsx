@@ -15,22 +15,16 @@ const Projects = () => {
           src="/manufacturing.png"
           title="Manufacturing Inventory Solution"
           description="A comprehensive solution tailored for manufacturing businesses, optimizing inventory management and streamlining processes to maximize efficiency and productivity."
-          imageWidth={500}
-          imageHeight={300}
         />
         <ProjectCard
           src="/education.png"
           title="Empowering Education Enterprises"
           description="Dedicated solutions designed to empower educational institutions, providing innovative tools and technologies to enhance learning experiences and administrative workflows."
-          imageWidth={500}
-          imageHeight={300}
         />
         <ProjectCard
           src="/hotelHospital2.jpg"
           title="Empowering Hospital And Hotel Solutions"
           description="Tailored solutions for hospitals and hotels, revolutionizing operations and guest experiences through advanced technology and seamless integration of services."
-          imageWidth={200}
-          imageHeight={150}
         />
       </div>
     </div>
