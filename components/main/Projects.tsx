@@ -23,7 +23,7 @@ const Projects = () => {
         />
         <ProjectCard
           src="/hotelHospital2.jpg"
-          title="ClientCare: Seamless Solutions"
+          title="Seamless Solutions"
           description=""
         />
       </div>
