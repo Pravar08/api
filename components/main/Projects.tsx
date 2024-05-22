@@ -13,7 +13,7 @@ const Projects = () => {
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
         <ProjectCard
           src="/manufacturing.png"
-          title="Manufacturing Inventory Solution"
+          title="Manufacturing Solution"
           description="A comprehensive solution tailored for manufacturing businesses, optimizing inventory management and streamlining processes to maximize efficiency and productivity."
         />
         <ProjectCard
@@ -23,7 +23,7 @@ const Projects = () => {
         />
         <ProjectCard
           src="/hotelHospital2.jpg"
-          title="Empowering Hospital And Hotel Solutions"
+          title="Hospital And Hotel Solutions"
           description="Tailored solutions for hospitals and hotels, revolutionizing operations and guest experiences through advanced technology and seamless integration of services."
         />
       </div>
