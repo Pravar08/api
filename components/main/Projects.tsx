@@ -13,13 +13,13 @@ const Projects = () => {
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
         <ProjectCard
           src="/manufacturing.png"
-          title=""
-          // description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          title="Manufacturing Inventory Solution"
+          description=""
         />
         <ProjectCard
           src="/education.png"
-          title=""
-          // description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          title="Empowering Education Enterprises"
+          description=""
         />
         <ProjectCard
           src="/hotelHospital2.jpg"
