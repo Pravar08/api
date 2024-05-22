@@ -83,7 +83,7 @@ html {
 
 /* Apply styles to the scrollbar thumb */
 ::-webkit-scrollbar-thumb {
-  background-color: #0f0e0e;; /* Set the color of the thumb */
+  background-color: white;; /* Set the color of the thumb */
   border-radius: 4px; /* Add rounded corners to the thumb */
 }
 
