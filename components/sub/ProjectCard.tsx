@@ -6,20 +6,19 @@ interface Props {
 }
 
 const ProjectCard = ({ src }: Props) => {
-  // Determine the height for the last image
-  const imageHeight = src === "/hotelHospital2.jpg" ? 900 : 1000;
+  // Determine the height for all images
+  const imageHeight = 400; // Adjust this value as needed
 
   return (
     <div className="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61] h-[400px]">
-      <div className="relative" style={{ width: "100%", paddingTop: "100%" }}>
-        <Image
-          src={src}
-          alt={src}
-          layout="fill"
-          objectFit="cover"
-          className="rounded-lg"
-        />
-      </div>
+      <Image
+        src={src}
+        alt={src}
+        width={1000}
+        height={imageHeight}
+        layout="responsive"
+        className="object-cover"
+      />
     </div>
   );
 };
