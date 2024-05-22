@@ -14,17 +14,17 @@ const Projects = () => {
         <ProjectCard
           src="/manufacturing.png"
           title="Modern Next.js Portfolio"
-          description="We build web panel and mobile app solutions to streamlines warehouse operations, inventory tracking, workforce management, export processes, and billing tasks for seamless supply chain efficiency."
+          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         />
         <ProjectCard
           src="/education.png"
           title="Interactive Website Cards"
-          description="We build web panel and mobile app solutions tostreamline administrative tasks, enhance communication, and empower educators, parents, and students with tools for efficient class management and academic progress tracking."
+          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         />
         <ProjectCard
           src="/hotelHospital2.jpg"
           title="Space Themed Website"
-          description="Our platform offers tailored solutions for hospitals and hotels, optimizing operations, enhancing customer experiences, and ensuring seamless communication and service efficiency."
+          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         />
       </div>
     </div>
