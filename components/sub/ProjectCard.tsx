@@ -7,7 +7,7 @@ interface Props {
 
 const ProjectCard = ({ src }: Props) => {
   // Determine the height for all images
-  const imageHeight = 400; // Adjust this value as needed
+  const imageHeight = src==="/hotelHospital2.jpg"?420:400; // Adjust this value as needed
 
   return (
     <div className="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61] h-[400px]">
