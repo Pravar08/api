@@ -1,0 +1,21 @@
+.projectBanner {
+    display: flex;
+    justify-content: center;
+    perspective: 1000px; /* Set perspective for 3D rotation */
+  }
+  
+  .projectCardWrapper {
+    flex: 1;
+    margin: 0 10px;
+    transition: transform 0.5s;
+  }
+  
+  .projectCardWrapper:not(:first-child):not(:last-child) {
+    filter: blur(3px); /* Apply blur to all but the centered card */
+  }
+  
+  .projectCardWrapper:hover {
+    transform: scale(1.1) translateY(-20px); /* Elevate and scale centered card on hover */
+    z-index: 1; /* Ensure centered card is on top */
+  }
+  

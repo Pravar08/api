@@ -1,5 +1,6 @@
 import React from "react";
 import ProjectCard from "../sub/ProjectCard";
+import styles from "./Projects.module.css"; // Import CSS file for styling
 
 const Projects = () => {
   return (
@@ -7,21 +8,22 @@ const Projects = () => {
       <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
         Our Client Partnerships
       </h1>
-      <div className="relative w-full overflow-hidden">
-        <div className="flex gap-10 absolute top-0 left-0 transform transition-transform ease-in-out duration-500">
+      <div className={styles.projectBanner}>
+        <div className={styles.projectCardWrapper}>
           <ProjectCard
             src="/manufacturing.png"
-            key="manufacturing"
             // Add any additional props as needed
           />
+        </div>
+        <div className={styles.projectCardWrapper}>
           <ProjectCard
             src="/education.png"
-            key="education"
             // Add any additional props as needed
           />
+        </div>
+        <div className={styles.projectCardWrapper}>
           <ProjectCard
             src="/muntiple.jpg"
-            key="hospital-hotel"
             // Add any additional props as needed
           />
         </div>
