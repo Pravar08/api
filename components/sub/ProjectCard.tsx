@@ -7,17 +7,15 @@ interface Props {
 
 const ProjectCard = ({ src }: Props) => {
   return (
-    <div className="flex justify-center items-center">
-      <div className="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61]">
-        <div className="w-full h-full relative">
-          <Image
-            src={src}
-            alt="Project Image"
-            layout="fill"
-            objectFit="contain"
-            className="object-cover rounded-lg border border-[#2A0E61]"
-          />
-        </div>
+    <div className="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61] w-[300px] h-[400px]">
+      <div className="w-full h-full relative">
+        <Image
+          src={src}
+          alt={src}
+          layout="fill"
+          objectFit="cover"
+          className="object-cover"
+        />
       </div>
     </div>
   );
