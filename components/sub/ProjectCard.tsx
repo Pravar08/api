@@ -13,7 +13,7 @@ const ProjectCard = ({ src }: Props) => {
           src={src}
           alt={src}
           layout="fill"
-          objectFit="cover"
+          objectFit="contain"
           className="object-cover"
         />
       </div>
